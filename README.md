@@ -30,11 +30,15 @@ Applied the 3D convolution operation to extract spatial and temporal features fr
 
 
 # RMSprop Optimizer
-The RMSprop optimizer is similar to the gradient descent algorithm with momentum. The RMSprop optimizer restricts the oscillations in the vertical direction. Therefore, we can increase our learning rate and our algorithm could take larger steps in the horizontal direction converging faster.
+The RMSprop optimizer is similar to the gradient descent algorithm with momentum. The RMSprop optimizer restricts the oscillations in the vertical direction. Therefore, we can increase our learning rate and our algorithm could take larger steps in the horizontal direction converging faster. The difference between RMSprop and gradient descent is on how the gradients are calculated. The following equations show how the gradients are calculated for the RMSprop and gradient descent with momentum. The value of momentum is denoted by beta and is usually set to 0.9. If you are not interested in the math behind the optimizer, you can just skip the following equations.
 ![](images/optimizer.jpg)
+# RESULS
+Following results were obtained after training and testing the model on KTH dataset with the split of 0.8 and 0.2 respectively.
+# Loss Graph
+![](images/loss.png)
 
-
-
+# Accuracy Graph
+![](images/accuracy.png)
 
 
 
