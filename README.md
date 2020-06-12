@@ -41,4 +41,7 @@ Following results were obtained after training and testing the model on KTH data
 ![](images/accuracy.png)
 
 
-
+# Conclusion
+* accuracy for training data was about 92% and for validation was about 70%
+* Dropout of 50% and Batch Normalization for each layer decreased overfitting
+* Hardwiring the input to 5 channels improved the accuracy significantly
