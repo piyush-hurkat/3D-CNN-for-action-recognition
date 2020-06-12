@@ -31,6 +31,7 @@ Applied the 3D convolution operation to extract spatial and temporal features fr
 
 # RMSprop Optimizer
 The RMSprop optimizer is similar to the gradient descent algorithm with momentum. The RMSprop optimizer restricts the oscillations in the vertical direction. Therefore, we can increase our learning rate and our algorithm could take larger steps in the horizontal direction converging faster.
+![](images/optimizer.jpg)
 
 
 
