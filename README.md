@@ -1,5 +1,5 @@
 # 3D-CNN-for-action-recognition
-This is a simulation of "3D CNN for Human action recognotion" by Shuiwang Ji, Wei Xu, Ming Yang
+This is a simulation of "3D CNN for Human action recognotion" by Shuiwang Ji, Wei Xu, Ming Yang.
 
 
 # Dataset
